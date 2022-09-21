@@ -7,7 +7,7 @@ async function main() {
     throw new Error('No tag specified')
   }
 
-  let pkgName = 'storage-hook'
+  let pkgName = 'store-hook'
   let version
 
   if (tag.includes('@')) [pkgName, version] = tag.split('@')
