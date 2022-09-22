@@ -1,5 +1,5 @@
 {
-  "name": "store-hook",
+  "name": "use-type-store",
   "license": "MIT",
   "author": "poyoho",
   "description": "type stable store hook",
