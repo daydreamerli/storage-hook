@@ -4,8 +4,8 @@
   "author": "poyoho",
   "description": "type stable store hook",
   "type": "module",
-  "main": "dist/store-hook.es.js",
-  "module": "dist/store-hook.es.js",
+  "main": "dist/use-type-store.es.js",
+  "module": "dist/use-type-store.es.js",
   "types": "dist/types/index.d.ts",
   "version": "1.1.13",
   "repository": {

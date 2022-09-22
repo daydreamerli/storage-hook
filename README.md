@@ -1,10 +1,10 @@
 # storage-hook
 
 <p align="start">
-  <a href="https://www.npmjs.com/package/store-hook"><img src="https://img.shields.io/npm/v/store-hook.svg" alt="npm package"></a>
+  <a href="https://www.npmjs.com/package/use-type-store"><img src="https://img.shields.io/npm/v/use-type-store.svg" alt="npm package"></a>
   <a href="https://github.com/poyoho/storage-hook/actions/workflows/ci.yml"><img src="https://github.com/poyoho/storage-hook/actions/workflows/ci.yml/badge.svg?branch=master" alt="build status"></a>
   <a href="https://codecov.io/gh/poyoho/storage-hook"><img src="https://codecov.io/gh/poyoho/storage-hook/branch/master/graph/badge.svg"/></a>
-  <!-- <a href="https://packagephobia.com/result?p=store-hook"><img src="https://packagephobia.com/badge?p=store-hook"/></a> -->
+  <!-- <a href="https://packagephobia.com/result?p=use-type-store"><img src="https://packagephobia.com/badge?p=use-type-store"/></a> -->
 </p>
 <br/>
 
@@ -15,19 +15,19 @@ storage-hook ensures that the original type of js (String / Boolean / Number / D
 Using npm:
 
 ```sh
-$ npm install store-hook
+$ npm install use-type-store
 ```
 
 Using yarn:
 
 ```sh
-$ yarn add store-hook
+$ yarn add use-type-store
 ```
 
 Using unpkg CDN:
 
 ```
-<script src="https://unpkg.com/store-hook/dist/storage-hook.iife.js"></script>
+<script src="https://unpkg.com/use-type-store/dist/storage-hook.iife.js"></script>
 ```
 
 ## Example
@@ -43,7 +43,7 @@ const ls = useLocalStorage({
   key1: Boolean,
   key2: Number,
   key3: String,
-  user: Object as unknown as User
+  user: (Object as unknown) as User
 })
 ```
 
